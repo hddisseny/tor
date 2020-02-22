@@ -3,7 +3,7 @@
 
 include ( dirname( __FILE__ ) . '/tor/tor-init.php' );
 
-$torCMS = new tor\cms\Init();
+$tOR_CMS = new tor\cms\Init();
 
-$torCMS->run();
- 
+$tOR_CMS->run();
+  

@@ -1,0 +1,67 @@
+html, body{
+    font-family: 'Roboto';
+    background-color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-family: 'Wire One'  ;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 0;
+}
+h1::first-letter{
+    font-size: 3rem;
+}
+.tor-installer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tor-installer p{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.tor-installer input[type="submit"] { 
+    display: block;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto';
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    border: 0px;
+    transition: all .333s;
+}
+
+.tor-installer .input{ 
+    overflow: hidden;
+    position: relative;
+}
+ 
+.tor-installer input[type="submit"]:hover{
+    background-color: #fff;
+    color: #3b3b3b;
+}
+ 
+.tor-installer ul li span{
+    font-style: italic;
+    font-weight: 300;
+}
+
+.log{
+    margin: 15px 0;
+}
